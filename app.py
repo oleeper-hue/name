@@ -234,6 +234,7 @@ if st.button("Predict"):
         st.subheader("Prediction Result")
         if pred[0] == 0:
             st.success("Prediction: No Default")
+            st.success(input_encoded)
         else:
             st.error("Prediction: Default")
 
