@@ -186,28 +186,6 @@ raw_row = {
     "phone": phone,
 }
 
-raw_row = {
-    "months_loan_duration": 18,
-    "amount": 2319,
-    "percent_of_income": 3,
-    "years_at_residence": 3,
-    "age": 33,
-    "existing_loans_count": 1,
-    "dependents": 1,
-    # Categorical codes (as in training)
-    "checking_balance": "< 0 DM",
-    "credit_history": "no credits / all paid duly",
-    "purpose": "car (new)",
-    "savings_balance": "< 100 DM",
-    # Ordinal numeric
-    "employment_duration": "unemployed",
-    # More categorical codes
-    "other_credit": "bank",
-    "housing": "rent",
-    "job": "unemployed / unskilled non-resident",
-    "phone": "none",
-}
-
 raw_df = pd.DataFrame([raw_row])
 
 # ---------- Encode EXACTLY like training ----------
