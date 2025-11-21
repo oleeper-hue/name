@@ -200,7 +200,7 @@ raw_row = {
     "purpose": "car (new)",
     "savings_balance": "< 100 DM",
     # Ordinal numeric
-    "employment_duration": "unemployed",
+    "employment_duration": 0,
     # More categorical codes
     "other_credit": "bank",
     "housing": "rent",
