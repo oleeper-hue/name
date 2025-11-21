@@ -234,6 +234,7 @@ if st.button("Predict"):
         st.subheader("Prediction Result")
         if pred[0] == 0:
             st.success("Prediction: No Default")
+            st.success(raw_row)
             st.success(input_encoded)
             st.success(input_encoded.columns.to_list())
         else:
